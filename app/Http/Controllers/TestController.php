@@ -10,4 +10,9 @@ class TestController extends Controller
     {
         return 'test is working';
     }
+
+    public function powNumber(int $num)
+    {
+        return $num ** $num;
+    }
 }
